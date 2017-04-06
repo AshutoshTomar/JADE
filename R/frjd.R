@@ -1,4 +1,4 @@
-frjd <- function(X, weight=NULL, maxiter=100, eps=1e-06, na.action = na.fail)
+frjd <- function(X, weight=NULL, maxiter=5000, eps=1e-06, na.action = na.fail)
 {
   X <- na.action(X)
   dim.X <- dim(X)
